@@ -14,15 +14,14 @@ body {
     padding: 0 15px;
 }
 .header_head {
-    position: relative;
-    background-color: #ede734;;
+    background-color: #1d1d1d;;
     transition:all 350ms ease-in-out;
     width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: -152.5px;
 }
-.header_head:hover {
-    
-    background-color: #1d1d1d;
-}
+
 .header_inner {
     width: 100%;
 }
@@ -76,6 +75,7 @@ body {
 }
 .header_body {
     margin-top: 150px;
+    z-index: 1.1;
 }
 .header_body_inner {
     display: -webkit-flex;
