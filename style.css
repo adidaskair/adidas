@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Montserrat;
+    background-color: #ede734;
+    position: relative;
+    color: #fff;
+}
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header_head {
+    position: relative;
+    background-color: #ede734;;
+    transition:all 350ms ease-in-out;
+}
+.header_head:hover {
+    background-color: #1d1d1d;
+}
+.header_inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_inner .logo .logo_text {
+    font-family: Montserrat;
+    font-size: bold;
+    font-size: 32px;
+    color: inherit;
+    text-decoration: none;
+}
+.header_inner .logo .logo_text:hover {
+    color: #ede734;
+    transition:all 350ms ease-in-out;
+}
+.header_inner nav ul {
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+.header_inner nav ul li {
+    list-style-type: none;
+}
+.header_inner nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    border-bottom: inherit;
+}
+.header_inner nav ul li a:hover {
+    color: #ede734;
+    transition:all 350ms ease-in-out;
+    text-decoration: underline;
+}
+.header_body {
+    margin-top: 150px;
+}
+.header_body_inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header_body_inner .left .title {
+    font-family: Montserrat;
+    margin-top: 65px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    perspective: 1000px;
+    transform-origin: 50% 50%;
+}
+.header_body_inner .left .title_podtext {
+    font-family: Montserrat;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: black;
+    line-height: 65px;
+    font-size: 46px;
+    font-weight: 700;
+}
+.header_body_inner .right img {
+    margin: 0;
+}
+.header_body_inner .right img:hover {
+    transform: scale(1.1);
+    transition:all 700ms ease-in-out;
+}
+.header_delivery {
+    margin-top: 170px;
+    max-width: 100%;
+    height: 175px;
+    background: #212121;
+}
+.header_delivery .title {
+    padding-top: 50px;
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.header_delivery .title span {
+    font-size: 30px;
+    font-weight: 400;
+}
+.header_delivery .title_podtext {
+    margin-top: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}
+.about {
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+    color: #212121;
+}
+.about .title {
+    font-size: 32px;
+}
+.about .title_podtext {
+    margin-top: 15px;
+    font-size: 18px;
+    align-items: center;
+    height: 250px;
+}
+.about img {
+    margin-top: -110px;
+}
+.about img:hover {
+    transform: scale(1.1);
+    transition:all 700ms ease-in-out;
+}
+.mail {
+    display: flex;
+    align-items: center;
+    background: #212121;
+    margin-top: 150px;
+    justify-content: center;
+    height: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+.mail .mail_title span {
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: 700;
+    vertical-align:middle
+}
+.mail .mail_title .btn_mail {
+    appearance: none;
+    border: 0;
+    border-radius: 1px;
+    background: #d0ca2c;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    outline: none;
+    font-size: 16px;
+}
+.mail .mail_title .input_mail {
+    appearance: none;
+    border: 0;
+    margin-right: 20px;
+    border-radius: 1px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    font-size: 16px;
+    outline: none;
+    font-size: 16px;
+}
+.catalog .image_price {
+    margin-top: 150px;
+    text-align: center;
+    border: 50% solid #333333;
+}
+.catalog .image_price:hover {
+    transform: scale(1.05);
+    transition:all 700ms ease-in-out;
+}
+.catalog .name_price {
+    color: #212121;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.catalog .text_price {
+    color: #212121;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.catalog .btn_buy {
+    display: block;
+    margin: 0 auto;
+    appearance: none;
+    border: 0;
+    border-radius: 1px;
+    background: #000000;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5.5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.catalog .btn_buy:hover {
+    background: #ffffff;
+    color: #000000;
+    transition:all 700ms ease-in-out;
+}
+.catalog .black_none {
+    width: 100%;
+    background: #212121;
+    height: 0.7px;
+}
+.contacts {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    background: #212121;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    
+}
+.contacts img {
+    color: inherit;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.contacts img:hover {
+    transform: scale(1.05);
+    transition:all 700ms ease-in-out;
+}
+.contacts .text_contacts .podtext_contacts {
+    font-size: 30px;
+    font-weight: 700px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+footer {
+    display: flex;
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #212121;
+    text-align: center;
+}
+footer span {
+    font-weight: 400;
+    color: #212121;
+}
+footer span:hover {
+    color: #fff;
+    transition:all 700ms ease-in-out;
+}
