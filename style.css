@@ -17,11 +17,16 @@ body {
     position: relative;
     background-color: #ede734;;
     transition:all 350ms ease-in-out;
+    width: 100%;
 }
 .header_head:hover {
+    
     background-color: #1d1d1d;
 }
 .header_inner {
+    width: 100%;
+}
+.header__wrap{
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -30,7 +35,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.header_inner .logo .logo_text {
+.header__wrap .logo .logo_text {
     font-family: Montserrat;
     font-size: bold;
     font-size: 32px;
@@ -99,8 +104,6 @@ body {
     line-height: 65px;
     font-size: 46px;
     font-weight: 700;
-    padding-right: 5px;
-    padding-left: 5px;
 }
 .header_body_inner .right img {
     margin: 0;
